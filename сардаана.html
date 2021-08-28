@@ -1,0 +1,55 @@
+<meta charset="utf-8" />
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class='question1'style="background-color: purple; height: 700px; width: 800px; margin-left: 500px">
+    <img src='https://i.stack.imgur.com/eNoUMm.jpg' style="width: 800px"/>
+<h1>кто пилот евы?</h1>
+    <div class='answer1'style="width: 800px; height: 100px; background-color: red; font-size: 40px">
+        аска лэнгли
+    </div>
+    <div class='answer2'style="width: 800px; height: 100px; background-color: blue;font-size: 40px">
+        синдзи икари
+    </div>
+    <div class='answer3'style="width: 800px; height: 100px; background-color: #white;font-size: 40px">
+        каору нагиса
+    </div>
+</div>
+<div class='question2'style="background-color: #737887; height: 800px; width: 800px; margin-left: 500px;display: none">
+    <img src='https://sun9-79.userapi.com/impf/c840326/v840326253/69bc0/rKMB5VS9OyQ.jpg?size=500x500&quality=96&sign=28e07bf49b8131d665123e90b4b324f8&type=album' style="width: 800px"/>
+<h2>со скрльки лет берут в нерв?</h2>
+    <div class='answer1'style="width: 800px; height: 100px; background-color: red; font-size: 40px">
+        16
+    </div>
+    <div class='answer2'style="width: 800px; height: 100px; background-color: grey;font-size: 40px">
+        13
+    </div>
+    <div class='answer3'style="width: 800px; height: 100px; background-color: #pu;font-size: 40px">
+        14
+    </div>
+</div>
+<div class='question3'style="background-color: grey; height: 700px; width: 800px; margin-left: 500px;display: none">
+    <img src='https://static.wikia.nocookie.net/evangelion/images/d/d0/Eva2-22_C1498A_crop.jpg/revision/latest?cb=20190723001406&path-prefix=ru' style="width: 800px"/>
+    <h3>кто станет девушкой синдзи в ребилде?</h3>
+    <div class='answer1'style="width: 800px; height: 100px; background-color: #orange; font-size: 40px">
+        аска лэнгли
+    </div>
+    <div class='answer2'style="width: 800px; height: 100px; background-color: #purple;font-size: 40px">
+        мари макинами 
+    </div>
+    <div class='answer3'style="width: 800px; height: 100px; background-color: blue;font-size: 40px">
+        рей аянами
+    </div>
+</div>
+
+<script>
+    find('question1 answer1').click('show', 'question2', 'правильно!')
+    find('question1 answer2').click('alert', 'неверно.')
+    find('question1 answer3').click('alert', 'неверно.')
+
+    find('question2 answer1').click('alert', 'неверно.')
+    find('question2 answer2').click('alert', 'неверно.')
+    find('question2 answer3').click('show', 'question3', 'правильно!')
+
+    find('question3 answer1').click('alert', 'неверно.')
+    find('question3 answer2').click('show', 'question4','правильно!')
+    find('question3 answer3').click('alert', 'неверно')
+</script>
